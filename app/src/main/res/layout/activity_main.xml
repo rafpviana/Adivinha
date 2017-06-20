@@ -9,15 +9,16 @@
     android:background="?android:attr/colorActivatedHighlight">
 
     <TextView
+        android:id="@+id/textoEscolherNumeroId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:gravity="center"
-        android:id="@+id/textoEscolherNumeroId"
-        android:text="Escolha um número entre 0 e 10"
-        android:textSize="@dimen/cabecalho_texto"
-        android:textColor="@android:color/background_light"
         android:padding="10dp"
-        android:layout_margin="10dp" />
+        android:text="Escolha um número entre 0 e 10"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/cabecalho_texto"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="match_parent"
@@ -28,13 +29,14 @@
         android:layout_margin="10dp" />
 
     <TextView
-        android:text="@string/texto_numero"
+        android:id="@+id/resultadoId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:gravity="center"
-        android:id="@+id/resultadoId"
-        android:textSize="@dimen/cabecalho_texto"
-        android:textColor="@android:color/background_light"
         android:padding="10dp"
-        android:layout_margin="10dp" />
+        android:text="@string/texto_numero"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/cabecalho_texto"
+        android:textStyle="bold" />
 </LinearLayout>
